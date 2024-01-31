@@ -541,7 +541,9 @@ drwxrwxrwx+ 2 root root 4096 Jan 31 15:23 .
 sudo chown -R codespace:codespace myroot
 
 ```
+
 *** __Yes. The user is codespace __.***
+
 ```bash
 @Dnielfird ➜ /workspaces/OSProject_Pingu/myroot (main) $ sudo chown -R codespace:codespace myroot
 @Dnielfird ➜ /workspaces/OSProject_Pingu/myroot (main) $ ls -l myroot
