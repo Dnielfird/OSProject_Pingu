@@ -1,13 +1,14 @@
 # OSProject Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: __Pingu__. 
 
-Section: __Fill your class section__. 
+Section: __3__. 
 
 Team Mates:
-1. __Fill name__ and __matric no__
-2. __Fill name__ and __matric no__
-3. __Fill name__ and __matric no__
+1. __Sharifah Anis Maisarah binti Shaik Fauzi__ and __2126344__
+2. __Nabihah binti Sazli__ and __2121604__
+3. __Adam bin Othman__ and __2127317__
+4. __Muhammad Danniel Firdaus bin Abdul Haizul Faisal__ and __2127967__
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
@@ -24,8 +25,8 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __Fill answer here__.
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __https://github.com/Dnielfird/OSProject_Pingu__.
+2. How many files and folders are in this repository. ***(1 mark)*** __1 File and 1 folder__.
 
 
 ## Exploring github codespaces
