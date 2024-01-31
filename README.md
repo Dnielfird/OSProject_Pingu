@@ -533,7 +533,7 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __The user is codespace and the group is codespace__.
 ```bash
 @Dnielfird ➜ /workspaces/OSProject_Pingu/myroot (main) $ ls -ld
-drwxrwxrwx+ 2 codespace codespace 4096 Jan 31 14:42 .
+drwxrwxrwx+ 2 codespace codespace 4096 Jan 31 15:23 .
 ```
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
