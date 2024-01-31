@@ -530,10 +530,10 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __The user is codespace and the group is codespace__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __The user is root and the group is root__.
 ```bash
 @Dnielfird ➜ /workspaces/OSProject_Pingu/myroot (main) $ ls -ld
-drwxrwxrwx+ 2 codespace codespace 4096 Jan 31 15:23 .
+drwxrwxrwx+ 2 root root 4096 Jan 31 15:23 .
 ```
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
@@ -541,7 +541,13 @@ drwxrwxrwx+ 2 codespace codespace 4096 Jan 31 15:23 .
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+*** __Yes. The user is codespace __.***
+```bash
+@Dnielfird ➜ /workspaces/OSProject_Pingu/myroot (main) $ sudo chown -R codespace:codespace myroot
+@Dnielfird ➜ /workspaces/OSProject_Pingu/myroot (main) $ ls -l myroot
+total 2
+drwxrwxrwx+ 2 codespace codespace 4096 Jan 31 15:25 .
+```
 
 ## You are on your own, create your own static webpage
 
