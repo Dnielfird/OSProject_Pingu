@@ -587,14 +587,12 @@ drwxrwxrwx+ 2 1000 1000 4096 Jan 31 16:30 /usr/local/apache2/htdocs
 @Dnielfird ➜ /workspaces/OSProject_Pingu/webpage (main) $ docker ps -a
 CONTAINER ID   IMAGE     COMMAND              CREATED          STATUS          PORTS                                   NAMES
 68a11a0d607d   httpd     "httpd-foreground"   8 minutes ago    Up 8 minutes    0.0.0.0:8080->80/tcp, :::8080->80/tcp   wonderful_mcclintock
-75e809d830a7   debian    "bash"               24 minutes ago   Up 24 minutes                                           wizardly_lewin
 ```
 3. What port is open for http protocol on the host machine? ***(1 mark)*** ***__The port for http protocol accessible on the host machine at port 8080.__***
 ```bash
 @Dnielfird ➜ /workspaces/OSProject_Pingu/webpage (main) $ docker ps -a
 CONTAINER ID   IMAGE     COMMAND              CREATED          STATUS          PORTS                                   NAMES
 68a11a0d607d   httpd     "httpd-foreground"   8 minutes ago    Up 8 minutes    0.0.0.0:8080->80/tcp, :::8080->80/tcp   wonderful_mcclintock
-75e809d830a7   debian    "bash"               24 minutes ago   Up 24 minutes                                           wizardly_lewin
 ```
 
 ## What to submit
